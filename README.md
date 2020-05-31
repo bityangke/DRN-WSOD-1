@@ -94,7 +94,7 @@ python3 tools/convert_mcg.py voc_2007_test detectron/datasets/data/MCG-Pascal-Ma
 
 ### Model Preparation
 
-Download models from this [here](https://onedrive.live.com/?authkey=%21ABgonGJfEBZTu5s&id=689C9AFC19465E87%21991&cid=689C9AFC19465E87) and untar File:
+Download models from this [here](https://1drv.ms/u/s!AodeRhn8mpxoh1-VUIt27bZumzqQ?e=QalzaB) and untar File:
 ```
 tar xvf models.tar
 mv models $DRN-WSOD
