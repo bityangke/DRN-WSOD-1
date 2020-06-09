@@ -80,8 +80,7 @@ Build the custom C++ operators library:
 ### Dataset Preparation
 Please follow [this](https://github.com/DRN-WSOD/DRN-WSOD/blob/DRN-WSOD/detectron/datasets/data/README.md#creating-symlinks-for-pascal-voc) to creating symlinks for PASCAL VOC.
 
-Download MCG proposals from [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/) or Selective Search proposals or Edge Boxes proposals to detectron/datasets/data, and transform it to pickle serialization format:
-
+Download proposals ([MCG](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/) or Selective Search proposals or Edge Boxes) to detectron/datasets/data, and transform it to pickle serialization format:
 ```
 cd detectron/datasets/data
 tar xvzf MCG-Pascal-Main_trainvaltest_2007-boxes.tgz
