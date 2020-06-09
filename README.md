@@ -5,7 +5,7 @@ This project is based on [Detectron](https://github.com/facebookresearch/Detectr
 
 ## License
 
-DRN-WSOD is released under the [Apache 2.0 license](https://github.com/DRN-WSOD/DRN-WSOD/blob/master/LICENSE). See the [NOTICE](https://github.com/DRN-WSOD/DRN-WSOD/blob/master/LICENSE) file for additional details.
+DRN-WSOD is released under the [Apache 2.0 license](https://github.com/DRN-WSOD/DRN-WSOD/blob/DRN-WSOD/LICENSE). See the [NOTICE](https://github.com/DRN-WSOD/DRN-WSOD/blob/DRN-WSOD/LICENSE) file for additional details.
 
 
 ## Installation
@@ -78,9 +78,9 @@ Build the custom C++ operators library:
 
 
 ### Dataset Preparation
-Please follow [this](https://github.com/DRN-WSOD/DRN-WSOD/blob/master/detectron/datasets/data/README.md#creating-symlinks-for-pascal-voc) to creating symlinks for PASCAL VOC.
+Please follow [this](https://github.com/DRN-WSOD/DRN-WSOD/blob/DRN-WSOD/detectron/datasets/data/README.md#creating-symlinks-for-pascal-voc) to creating symlinks for PASCAL VOC.
 
-Download MCG proposal from [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/) to detectron/datasets/data, and transform it to pickle serialization format:
+Download MCG proposals from [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/) or Selective Search proposals or Edge Boxes proposals to detectron/datasets/data, and transform it to pickle serialization format:
 
 ```
 cd detectron/datasets/data
